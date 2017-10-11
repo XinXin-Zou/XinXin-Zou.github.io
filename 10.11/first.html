@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+		.big{
+			background: rgb(148,188,230);
+			width:100vw;
+			height: 100vh; 
+		}
+		.con{
+			background: rgb(202,230,255);
+			box-shadow: -1px -1px 2px gray,1px 1px 3px gray;
+		}
+		.title{
+			margin-top: 7%;
+			padding-bottom: 15px;
+		}
+		.Left{
+			
+			background: rgb(202,230,255);
+			padding-left: 15px;
+
+		}
+		.LeftWord p{
+			font-size: 16px;
+		}
+		.right{
+			background: rgb(249,254,255);
+			margin-right: -15px;
+			margin-left: -15px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 1px;
+		}
+		.right p{
+			margin-bottom: 0;
+			color: rgb(74,98,116);
+			font-size: 16px;
+		}
+		h4{
+			padding-top: 30px;
+			padding-bottom: 10px;
+		}
+		input{
+			width: 100%;
+			height: 38px;
+			margin-bottom: 20px;
+
+		}
+		textarea{
+			width: 100%;
+			height: 100px;
+			margin-bottom: 20px;
+		}
+		button{
+			width: 100%;
+			background: rgb(202,230,255);
+			height: 40px;
+			margin-bottom: 30px;
+		}
+		.s1{
+			color: white;
+		}
+		.s2{
+			color: rgb(74,98,116);
+		}
+		.s3{
+			font-weight: bolder;
+		}
+		@media only screen and (max-width: 1000px){
+			.title,.s3,.LeftWord p{
+				text-align: center;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid big">
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title">
+						<h2><span class="s1">Web</span>
+						<span class="s2">前端开发技术交流群</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row  con">
+				<div class="col-md-4 col-xs-12">
+					<div class="Left">
+						<h4 class="s2 s3">Web前端开发技术交流群</h4>
+						<div class="s2 LeftWord">
+							<p>北京市昌平区</p>
+							<p>QQ群:21227101</p>
+							<p>27732357@qq.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-xs-12">
+					<div class="right"> 
+						<h4 class="s2">邮件联系</h4>
+						<div class="row">
+							<div class="col-md-6 col-xs-6">
+								<p>姓名</p>
+								<input type="text" name="">
+								<p>邮件</p>
+								<input type="text" name="">
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p>公司</p>
+								<input type="text" name="">
+								<p>电话</p>
+								<input type="text" name="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p>信息</p>
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<button>提交</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
